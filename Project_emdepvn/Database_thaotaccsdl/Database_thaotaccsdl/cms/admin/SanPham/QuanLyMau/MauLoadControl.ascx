@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MauLoadControl.ascx.cs" Inherits="Database_thaotaccsdl.cms.admin.SanPham.QuanLyMau.MauLoadControl" %>
+<asp:PlaceHolder ID="plMauLoadControl" runat="server"></asp:PlaceHolder>

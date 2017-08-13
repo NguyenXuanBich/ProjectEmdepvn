@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="LichSuLoadControl.ascx.cs" Inherits="Database_thaotaccsdl.GiaodienUser.LichSuGiaoDich.LichSuLoadControl" %>
+<asp:PlaceHolder ID="plLichSuLoadControl" runat="server"></asp:PlaceHolder>

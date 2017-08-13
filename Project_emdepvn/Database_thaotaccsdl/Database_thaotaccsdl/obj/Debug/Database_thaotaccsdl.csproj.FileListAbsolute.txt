@@ -1,0 +1,85 @@
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Tự làm\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll.config
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Tự làm\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Tự làm\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Tự làm\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Tự làm\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Tự làm\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.csprojResolveAssemblyReference.cache
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-Chin_636204567246641671\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll.config
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-Chin_636204567246641671\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-Chin_636204567246641671\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-Chin_636204567246641671\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-Chin_636204567246641671\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-Chin_636204567246641671\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.csprojResolveAssemblyReference.cache
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-Chin_6362045672466416\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll.config
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-Chin_6362045672466416\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-Chin_6362045672466416\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-Chin_6362045672466416\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-Chin_6362045672466416\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-Chin_6362045672466416\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.csprojResolveAssemblyReference.cache
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll.config
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.csprojResolveAssemblyReference.cache
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep2\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll.config
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep2\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep2\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep2\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep2\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep2\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.csprojResolveAssemblyReference.cache
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll.config
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.csprojResolveAssemblyReference.cache
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep3\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll.config
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep3\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep3\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep3\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep3\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep3\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\bin\WebApplication2.dll
+C:\Users\canhb\Desktop\Documents\New folder\CODE\Mau1\Code-emdep3\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.csprojResolveAssemblyReference.cache
+E:\Documents\Năm 4\Đồ án tốt nghiệp\Tham khảo\Documents\New folder\CODE\Mau1\Code-emdep3\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll.config
+E:\Documents\Năm 4\Đồ án tốt nghiệp\Tham khảo\Documents\New folder\CODE\Mau1\Code-emdep3\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll
+E:\Documents\Năm 4\Đồ án tốt nghiệp\Tham khảo\Documents\New folder\CODE\Mau1\Code-emdep3\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.pdb
+E:\Documents\Năm 4\Đồ án tốt nghiệp\Tham khảo\Documents\New folder\CODE\Mau1\Code-emdep3\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\bin\WebApplication2.dll
+E:\Documents\Năm 4\Đồ án tốt nghiệp\Tham khảo\Documents\New folder\CODE\Mau1\Code-emdep3\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.csprojResolveAssemblyReference.cache
+E:\Documents\Năm 4\Đồ án tốt nghiệp\Tham khảo\Documents\New folder\CODE\Mau1\Code-emdep3\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.dll
+E:\Documents\Năm 4\Đồ án tốt nghiệp\Tham khảo\Documents\New folder\CODE\Mau1\Code-emdep3\Code-emdep3\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Dự án emdep\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll.config
+C:\Users\canhb\Desktop\Dự án emdep\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Dự án emdep\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Dự án emdep\Database_thaotaccsdl\Database_thaotaccsdl\bin\WebApplication2.dll
+C:\Users\canhb\Desktop\Dự án emdep\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Dự án emdep\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Dự án emdep\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.csprojResolveAssemblyReference.cache
+C:\Users\canhb\Desktop\gốc\Dự án emdep\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll.config
+C:\Users\canhb\Desktop\gốc\Dự án emdep\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\gốc\Dự án emdep\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\gốc\Dự án emdep\Database_thaotaccsdl\Database_thaotaccsdl\bin\WebApplication2.dll
+C:\Users\canhb\Desktop\gốc\Dự án emdep\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\gốc\Dự án emdep\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\gốc\Dự án emdep\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.csprojResolveAssemblyReference.cache
+C:\Users\canhb\Desktop\gốc\Dự án emdepchuan\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll.config
+C:\Users\canhb\Desktop\gốc\Dự án emdepchuan\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\gốc\Dự án emdepchuan\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\gốc\Dự án emdepchuan\Database_thaotaccsdl\Database_thaotaccsdl\bin\WebApplication2.dll
+C:\Users\canhb\Desktop\gốc\Dự án emdepchuan\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.csprojResolveAssemblyReference.cache
+C:\Users\canhb\Desktop\gốc\Dự án emdepchuan\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\gốc\Dự án emdepchuan\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Đồ án\Dự án emdep.vn\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll.config
+C:\Users\canhb\Desktop\Đồ án\Dự án emdep.vn\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Đồ án\Dự án emdep.vn\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Đồ án\Dự án emdep.vn\Database_thaotaccsdl\Database_thaotaccsdl\bin\WebApplication2.dll
+C:\Users\canhb\Desktop\Đồ án\Dự án emdep.vn\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.csprojResolveAssemblyReference.cache
+C:\Users\canhb\Desktop\Đồ án\Dự án emdep.vn\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Đồ án\Dự án emdep.vn\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Báo cáo và dự án\Đồ án\Dự án emdep\Project_emdepvn\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll.config
+C:\Users\canhb\Desktop\Báo cáo và dự án\Đồ án\Dự án emdep\Project_emdepvn\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Báo cáo và dự án\Đồ án\Dự án emdep\Project_emdepvn\Database_thaotaccsdl\Database_thaotaccsdl\bin\Database_thaotaccsdl.pdb
+C:\Users\canhb\Desktop\Báo cáo và dự án\Đồ án\Dự án emdep\Project_emdepvn\Database_thaotaccsdl\Database_thaotaccsdl\bin\WebApplication2.dll
+C:\Users\canhb\Desktop\Báo cáo và dự án\Đồ án\Dự án emdep\Project_emdepvn\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.csprojResolveAssemblyReference.cache
+C:\Users\canhb\Desktop\Báo cáo và dự án\Đồ án\Dự án emdep\Project_emdepvn\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.dll
+C:\Users\canhb\Desktop\Báo cáo và dự án\Đồ án\Dự án emdep\Project_emdepvn\Database_thaotaccsdl\Database_thaotaccsdl\obj\Debug\Database_thaotaccsdl.pdb

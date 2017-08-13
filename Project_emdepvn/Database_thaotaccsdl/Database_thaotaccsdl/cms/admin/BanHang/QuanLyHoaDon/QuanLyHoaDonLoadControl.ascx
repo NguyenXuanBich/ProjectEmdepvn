@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="QuanLyHoaDonLoadControl.ascx.cs" Inherits="Database_thaotaccsdl.cms.admin.BanHang.QuanLyHoaDon.QuanLyHoaDonLoadControl" %>
+<asp:PlaceHolder ID="plHoaDonLoadControl" runat="server"></asp:PlaceHolder>

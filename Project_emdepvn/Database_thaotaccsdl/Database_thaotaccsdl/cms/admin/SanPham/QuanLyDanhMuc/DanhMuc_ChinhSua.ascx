@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="DanhMuc_ChinhSua.ascx.cs" Inherits="Database_thaotaccsdl.cms.admin.SanPham.QuanLyDanhMuc.DanhMuc_ChinhSua" %>
+Thêm form chỉnh sửa danhmuc ở đây -- đã chuyển sang tích hợp vào bên danh mục thêm mới

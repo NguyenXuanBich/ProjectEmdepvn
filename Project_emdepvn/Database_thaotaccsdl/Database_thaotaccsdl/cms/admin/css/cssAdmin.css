@@ -1,0 +1,209 @@
+﻿body {font: 12px normal Arial;color: #333;padding: 0px; margin: 0px auto;background:#3c3939}
+a { text-decoration: none;color:wheat}
+a:hover{color:#77C7FF}
+*{box-sizing:border-box}
+/*a.current{background:#3BAAFF}*/
+.containerr{padding:0px 25px}
+/*Phần header*/
+#header {height: 80px;overflow: hidden; background:#f9f9f9}
+#header .logo{float:left;line-height:80px}
+#header .logo img{padding-top:10px;width:200px}
+#header .accountMenu{float:right;line-height:80px}
+
+/*một số css hay dùng*/
+.fr{float:right; clear:both}
+.fl{float:left; clear:both}
+
+/*Nút đăng xuất*/
+#lbtDangXuat:hover{color:#ffd800 !important}
+
+/*Phần Menu Chính*/
+.MenuChinh{background:#808080}
+.MenuChinh ul,
+.MenuChinh li{list-style:none;margin:0px auto;padding:0px;text-align: center;}
+.MenuChinh li{display:inline-block}
+.MenuChinh li a{display:inline-block;padding:10px 15px;color:#fff;font-weight:bold;font:normal 11px HelveticaNeue;text-transform:uppercase}
+.MenuChinh li a:hover,.MenuChinh li a.curent
+{background:#dfdfdf;color:red}
+/*End Menu chính*/
+
+
+/*Phần nội dung trang có 2 cột*/
+/*Phần nội dung cột trái*/
+.cotTrai{float:left;width:250px; border:1px dashed #ffd800;box-sizing:border-box;min-height:480px;position:fixed;background:#8d8383;border-radius: 15px;}
+.cotTrai .head{background:#fff;padding:10px;border-bottom:1px dashed #ffd800;border-top:1px dashed #ffd800;font-weight:bold;border-radius: 15px;}
+.cotTrai .head:first-child{border-top:none}
+.cotTrai ul li{ padding:5px 0px}
+.cotTrai ul li a:hover,
+.cotTrai ul li a.current{color:#77C7FF}
+
+/*Phần nội dung cột phải*/
+.cotPhai{float:right;width:calc(100% - 270px); border:1px dashed #ffd800;box-sizing:border-box;min-height:480px;background:#f9f9f9/*padding:20px;*//*font-size:20px;*//*text-align:center*/;border-radius: 15px;}
+.cotPhai .head{background:#fff;padding:10px;border-bottom:1px dashed #ffd800;border-top:1px dashed #ffd800;font-weight:bold;border-radius: 15px;}
+.cotPhai .head:first-child{border-top:none}
+
+/*Css cho khung thêm mới*/
+.FormThemMoi{padding:15px}
+.thongTin{overflow:hidden; padding-bottom:10px}
+.tenTruong{float:left;width:150px}
+.oNhap{width:calc(100% - 150px)}
+.formThemMoi input[type=text],
+.formThemMoi select, 
+.formThemMoi textarea{border: solid 1px #dfdfdf;padding:5px;width:50%}
+.formThemMoi .btThemMoi{border:0px;background:#77C7FF;cursor:pointer;padding:5px 20px;color:#fff;font-weight:bold; border-radius:5px}
+.formThemMoi .thongbaotaothanhcong{text-align:center; font:20px bold Arial;padding:10px 0px;font-weight:bold;color:red}
+.formThemMoi .btHuyBo{border:0px;background:#808080;cursor:pointer;padding:5px 20px;color:#fff;font-weight:bold;margin-left:10px; border-radius:5px}
+.formThemMoi .anhdaidien{max-width:100px;max-height:120px}
+.formThemMoi .flAnhDaiDien{position:relative;left:150px}
+.cotPhai .formThemMoi{padding:15px}
+.formThemMoi input[type=text],
+.formThemMoi select{border: solid 1px #dfdfdf;padding:5px;width:50%}
+.formThemMoi .btThemMoi{border:0px;background:#77C7FF;cursor:pointer;padding:5px 20px;color:#fff;font-weight:bold; border-radius:5px}
+.formThemMoi .btThemMoi:hover{border:0px;background:#1d8de4;cursor:pointer;padding:5px 20px;color:#fff;font-weight:bold; border-radius:5px}
+.formThemMoi .thongbaotaothanhcong{text-align:center; font:20px bold Arial;padding:10px 0px;font-weight:bold;color:red}
+.formThemMoi .btHuyBo{border:0px;background:#808080;cursor:pointer;padding:5px 20px;color:#fff;font-weight:bold;margin-left:10px; border-radius:5px}
+.formThemMoi .btHuyBo:hover{border:0px;background:#333;cursor:pointer;padding:5px 20px;color:#fff;font-weight:bold;margin-left:10px; border-radius:5px}
+.formThemMoi .anhdaidien{max-width:100px;max-height:120px}
+.formThemMoi .flAnhDaiDien{position:relative;left:150px}
+/*CSS trang hiển thị các danh mục sản phẩm*/
+table.tbDanhSach{width:100%; border-collapse:collapse; border:solid 1px #dfdfdf}
+table.tbDanhSach th, table.tbDanhSach td{border:solid 1px #dfdfdf;padding:5px;font:13px bold Arial;font-weight:bolder}
+.khungChuaBang{padding:10px}
+table.tbDanhSach .cotMa{width:40px;text-align:center}
+table.tbDanhSach .cotAnh{width:120px;text-align:center}
+table.tbDanhSach .cotThuTu{width:70px;text-align:center}
+table.tbDanhSach .cotCongCu{width:120px;text-align:right}
+table.tbDanhSach .cotCongCu a{display:inline-block;width:24px;height:24px; background-position:center; background-repeat:no-repeat}
+table.tbDanhSach .cotCongCu a.dmcon{background-image: url(/pic/icon/more.png)}
+table.tbDanhSach .cotCongCu a.dmcha{background-image: url(/pic/icon/back.png)}
+table.tbDanhSach .cotCongCu a.sua{background-image:url(/pic/icon/edit.png)}
+table.tbDanhSach .cotCongCu a.xoa{background-image:url(/pic/icon/delete.png)}
+table.tbDanhSach .cotAnh .anhdaidien{max-width:40px; max-height:40px}
+table.tbDanhSach .cotAnhSP .anhdaidien, table.tbDanhSach .cotAnh{width:120px;text-align:center;position:relative;}
+table.tbDanhSach .cotAnh .anhdaidienhover{width:150px;border-radius:5px;text-align:center; height:auto;display:none;position:absolute;z-index:1;top:0;right:80px}
+table.tbDanhSach .cotAnh:hover .anhdaidienhover{display:inline-block}
+table.tbDanhSach .cotSoLuongSP{width:70px}
+table.tbDanhSach .cotMaDM{width:70px}
+table.tbDanhSach .cotNhomID{width:70px}
+table.tbDanhSach .cotMoTaSP{max-width:100px}
+table.tbDanhSach .cotMaSP,
+table.tbDanhSach .cotTenSP,
+table.tbDanhSach .cotMauID,
+table.tbDanhSach .cotSizeID,
+table.tbDanhSach .cotChatLieuID,
+table.tbDanhSach .cotSoLuongSP,
+table.tbDanhSach .cotGiaSP,
+table.tbDanhSach .cotNgayTao,
+table.tbDanhSach .cotNgayHuy,
+table.tbDanhSach .cotCongCu{text-align:center}
+table.tbDanhSach .cotTenSP{width:250px}
+table.tbDanhSach .cotGiaSP{width:100px}
+table.tbDanhSach .cotmail{width:170px;}
+table.tbDanhSach .cothoten{width:170px;}
+table.tbDanhSach .cotdiachi{width:100px;}
+table.tbDanhSach .cotngaysinh{width:100px;}
+table.tbDanhSach .cotgioitinh{width:80px;}
+.cotMa{width:40px;text-align:center}
+.cotAnh{width:120px;text-align:center}
+.cotThuTu{width:70px;text-align:center}
+.cotCongCu{width:120px;text-align:right}
+.cotCongCu a{display:inline-block;width:24px;height:24px; background-position:center; background-repeat:no-repeat}
+.cotCongCu a.dmcon{background-image: url(/pic/icon/more.png)}
+.cotCongCu a.dmcha{background-image: url(/pic/icon/back.png)}
+.cotCongCu a.sua{background-image:url(/pic/icon/edit.png)}
+.cotCongCu a.xoa{background-image:url(/pic/icon/delete.png)}
+.cotAnh .anhdaidien{max-width:40px; max-height:40px}
+.cotAnhSP .anhdaidien, .cotAnh{width:120px;text-align:center;position:relative;}
+.cotAnh .anhdaidienhover{width:150px;border-radius:10px;text-align:center; height:auto;display:none;position:absolute;z-index:1;top:0;left:80px}
+.cotAnh:hover .anhdaidienhover{display:inline-block}
+.cotSoLuongSP{width:70px}
+.cotMaDM{width:70px}
+.cotNhomID{width:70px}
+.cotMoTaSP{max-width:100px}
+.cotMaSP,
+.cotTenSP,
+.cotMauID,
+.cotSizeID,
+.cotChatLieuID,
+.cotSoLuongSP,
+.cotGiaSP,
+.cotNgayTao,
+.cotNgayHuy,
+.cotCongCu{text-align:center}
+.cotTenSP{width:250px}
+.cotGiaSP{width:100px}
+.cotmail{width:170px;}
+.cothoten{width:170px;}
+.cotdiachi{width:100px;}
+.cotngaysinh{width:100px;}
+.cotgioitinh{width:80px;}
+/*thêm mới*/
+.head .themmoi{display:inline-block; color:#3BAAFF; padding:0px 15px;background:url(/pic/icon/add.png) no-repeat top left;padding-left:25px;padding-bottom:5px;padding-top:5px;float:right;clear:both;text-align:right;line-height:100%}
+.head .themmoi:hover{color:red;}
+/*khác*/
+.dataTables_info{text-transform:uppercase;color:#1d8de4;width:200px;display:inline-block;float:left;padding-bottom:20px}
+/*.mdl-data-table__cell--non-numeric.mdl-data-table__cell--non-numeric{color:blue}*/
+.mdl-data-table{min-width:1007px;max-width:1007px; font:normal 11px HelveticaNeue !important}
+.dataTables_length{color:#3BAAFF;width:200px;display:inline-block}
+.dataTables_filter{color:red; padding-bottom:10px;width:200px;display:inline-block;float:right;font:normal 11px HelveticaNeue !important}
+.dataTables_paginate paging_simple_numbers{ padding-bottom:10px;width:200px;display:inline-block;float:right;}/*Note*/
+div.dataTables_wrapper div.dataTables_paginate{width:200px;display:inline-block;float:left;padding-top:15px;cursor:pointer;padding-bottom:20px;margin-left: 175px;}
+#example_previous{text-transform:uppercase;margin-right:10px;color:white;padding: 5px;border: 1px solid #77C7FF;border-radius: 5px;background:#77C7FF}
+#example_next{text-transform:uppercase;margin:0px 10px 0px 10px;color:white;padding: 5px;border: 1px solid #77C7FF;border-radius: 5px;background:#77C7FF}
+.paginate_button[disabled]{color:red !important}
+.disabled{color:rgba(0,0,0,.50) !important;border: 1px solid rgba(0,0,0,.26) !important;border-radius: 5px;background:rgba(0,0,0,.26) !important}
+.paginate_button{color:green; padding:0px 10px 0px 10px;font:normal 11px HelveticaNeue !important; border:1px solid#3BAAFF;border-radius: 5px}
+a.current{color:white !important; padding:0px 10px 0px 10px;font:normal 11px HelveticaNeue !important; border:1px solid#3BAAFF;border-radius: 5px;background:#3BAAFF}
+/**/
+/*Time*/
+.hotlinetopleft {
+  line-height: 80px;
+/*width: 200px;*/
+display: inline-block;
+padding-left: 50px;
+}
+
+#timedate{
+    font:italic 15px HelveticaNeue
+}
+/*godown*/
+#godown {
+    display: block;
+    width: 30px;
+    height: 56px;
+    position: fixed;
+    bottom: 570px;
+    left: 15px;
+}
+#godown .logo a img{
+width:250px
+}
+/*Mô tả tin tức - TIN TỨC*/
+.cotMoTa .motahover{width:200px !important; padding:5px !important;background:#1d8de4!important;font:normal 11px HelveticaNeue !important; white-space:pre-line !important;text-align:center !important; height:auto !important;display:none !important;position:absolute !important;z-index:1 !important;top:0 !important;left:80px !important;color:white !important;border-radius:5px !important}
+.cotMoTa:hover .motahover{display:inline-block !important}
+.cotMoTa .mota{margin:0 !important;font:normal 11px HelveticaNeue !important;color:green !important;cursor:pointer !important}
+.cotMoTa:hover .mota{color:red !important}
+/*Bộ CKEditor*/
+span.cke_skin_kama {
+    position: relative !important;
+    left: 150px !important;
+}
+.cke_skin_kama *{
+    white-space:pre-wrap !important;
+}
+.Ngay {
+    position: relative;
+    left: 150px;
+}
+#AdminLoadControl_ctl00_ctl00_tbNgay{width: 150px !important;
+margin-top: 10px !important;
+left: 150px !important;
+position: relative !important;}
+#AdminLoadControl_ctl00_ctl00_BatloiDateTime{
+    position:relative;
+    left:150px
+}
+#AdminLoadControl_ctl00_ctl00_BatloiDateTime2{
+    position:relative;
+    left:150px
+}

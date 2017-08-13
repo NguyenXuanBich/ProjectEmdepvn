@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="SizeLoadControl.ascx.cs" Inherits="Database_thaotaccsdl.cms.admin.SanPham.QuanLySize.SizeLoadControl" %>
+<asp:PlaceHolder ID="plSizeLoadControl" runat="server"></asp:PlaceHolder>

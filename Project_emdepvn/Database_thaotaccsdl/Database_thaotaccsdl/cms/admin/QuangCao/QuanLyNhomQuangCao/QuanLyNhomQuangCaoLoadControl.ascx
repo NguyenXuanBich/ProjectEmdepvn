@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="QuanLyNhomQuangCaoLoadControl.ascx.cs" Inherits="Database_thaotaccsdl.cms.admin.QuangCao.QuanLyNhomQuangCao.QuanLyNhomQuangCaoLoadControl" %>
+<asp:PlaceHolder ID="plNhomquangcaoloadcontrol" runat="server"></asp:PlaceHolder>

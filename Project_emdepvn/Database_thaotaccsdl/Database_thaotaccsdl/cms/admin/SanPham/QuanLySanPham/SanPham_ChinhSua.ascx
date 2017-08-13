@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="SanPham_ChinhSua.ascx.cs" Inherits="Database_thaotaccsdl.cms.admin.SanPham.QuanLySanPham.SanPham_ChinhSua" %>
+Chỉnh sửa em đã tích hợp vào uscontrol thêm mới luôn

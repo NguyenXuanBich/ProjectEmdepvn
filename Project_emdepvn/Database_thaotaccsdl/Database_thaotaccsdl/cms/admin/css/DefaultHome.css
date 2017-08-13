@@ -1,0 +1,154 @@
+﻿body {
+    margin: 0 auto;
+    padding: 0;
+}
+/*Khối container dùng chung */
+.container {
+    width: 1000px;
+    /*background: black;*/
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+/*Khối Hotline*/
+#Hotline {
+    width: 100%;
+    height: 30px;
+    background: #f8f7f7;
+    border-bottom: 1px solid #f5f1f1;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.phoneimg {
+    float: left;
+    color: #efefef;
+    font: normal 9px Arrial;
+    /*padding-right: 7px;*/
+    /*padding-bottom: 7px;
+    padding-top: 7px;*/
+    /*height: 30px;*/
+    position: relative;
+}
+
+    .phoneimg img {
+        float: left;
+        color: #efefef;
+        font: normal 9px Arrial;
+        padding-right: 7px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        /*height: 30px;*/
+        position: relative;
+    }
+
+
+.phonenumber {
+    float: left;
+    color: #808080;
+    font: normal 13px HelveticaNeue;
+    line-height: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.SearchAndLogin {
+    height: 30px;
+    float: right;
+    background: inherit;
+    position: relative;
+}
+
+    .SearchAndLogin .khoisearchandlogin .searchAndlogin {
+        width: 22px;
+        background-color: inherit;
+        border: none;
+        line-height: 30px;
+        padding: 0px;
+        margin: 0px;
+        cursor: pointer;
+        float: right;
+        position: relative;
+        height: 30px;
+    }
+
+    .SearchAndLogin .khoisearchandlogin {
+    }
+
+        .SearchAndLogin .khoisearchandlogin .searchAndlogin .text {
+            background: inherit;
+            float: right;
+            border: none;
+            line-height: 30px;
+            color: #808080;
+            position: relative;
+            height: 30px;
+        }
+
+        .SearchAndLogin .khoisearchandlogin .searchAndlogin #btsearch {
+            background-color: inherit;
+            border: none;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            width: 17px;
+            height: 17px;
+            float: right;
+            cursor: pointer;
+            position: relative;
+            height: 30px;
+        }
+
+            .SearchAndLogin .khoisearchandlogin .searchAndlogin #btsearch img {
+                cursor: pointer;
+                position: relative;
+                bottom: 5px;
+                right: 5px;
+            }
+
+        .SearchAndLogin .khoisearchandlogin .searchAndlogin #bordersearch {
+            background-color: inherit;
+            width: 1px;
+            height: 17px;
+            padding: 0px 10px 0px 10px;
+            float: right;
+            cursor: pointer;
+            position: relative;
+            height: 30px;
+            line-height: 30px;
+        }
+
+            .SearchAndLogin .khoisearchandlogin .searchAndlogin #bordersearch img {
+                line-height: 30px;
+            }
+
+        .SearchAndLogin .khoisearchandlogin .searchAndlogin #btvi {
+            background-color: inherit;
+            border: none;
+            padding: 7px 0px 7px 0px;
+            float: right;
+            cursor: pointer;
+            position: relative;
+            height: 30px;
+        }
+
+        .SearchAndLogin .khoisearchandlogin .searchAndlogin #bten {
+            background-color: inherit;
+            border: none;
+            padding: 7px 0px 7px 5px;
+            float: right;
+            cursor: pointer;
+            position: relative;
+            height: 30px;
+            width: 22px;
+        }
+
+            .SearchAndLogin .khoisearchandlogin .searchAndlogin #bten img {
+                background-color: inherit;
+                border: none;
+                float: right;
+                cursor: pointer;
+                position: relative;
+                line-height: 30px;
+                width: 22px;
+            }

@@ -1,0 +1,1 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="QuanLyChiTietDonDatHangLoadControl.ascx.cs" Inherits="Database_thaotaccsdl.cms.admin.BanHang.QuanLyChiTietDonDatHang.QuanLyChiTietDonDatHangLoadControl" %>

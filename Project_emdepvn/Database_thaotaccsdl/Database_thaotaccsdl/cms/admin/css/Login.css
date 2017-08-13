@@ -1,0 +1,17 @@
+﻿body {font:normal 12px Arial;/*margin:0px;padding:0px;*/}
+/**{box-sizing:border-box;}*/
+.FormDangNhap{margin:auto;width:400px;/*border:1px solid #808080*/margin-top:100px;border-radius:8px;}
+.head{font-weight:bold;font-size:14px;padding:8px;border:1px solid #808080;background:#6783ef;text-align:center;color:#ffffff;border-top-left-radius:7px;border-top-right-radius:7px}
+.formcon{padding:10px;background:#b7b7c6;border-bottom-left-radius:7px;border-bottom-right-radius:7px;border:1px 1px 0px 1px solid #808080}
+.rows{overflow:hidden;padding-bottom:10px;}
+.ten{float:left;width:120px;    line-height: 40px;}
+.onhap{float:left;width:calc(100% - 120px);}
+.onhap #tbMatKhau,
+.onhap #tbTenDangNhap{border-radius:5px}
+.onhap input[type=text],
+.onhap input[type=password]{height:20px ;border:1px solid #dfdfdf; padding:5px; width:95%}
+.btBack{background:#515ac6 !important;margin-left:20px;float:left ;border:0; cursor:pointer; padding:10px 20px; font-weight:bold;border-radius:5px;background:#4fc0d0;text-decoration:none; display:inline-block;color:#ffffff;border:1px solid#246365}
+.btDangNhap{background:#515ac6 !important;float:left ;border:0; cursor:pointer; padding:10px 20px; font-weight:bold;border-radius:5px;background:#4fc0d0;text-decoration:none; display:inline-block;color:#ffffff;border:1px solid#246365}
+.thongbao{color:red;font-weight:bold;margin-top:20px;text-align:center;}
+input[type=text]{height:20px !important}
+

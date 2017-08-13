@@ -1,0 +1,33 @@
+﻿body{
+    background:#808080
+}
+
+a.homepage {
+    color: white;
+    text-decoration: none;
+    font: normal 15px Arial;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+a.homepage:hover {
+    color: yellow;
+    text-decoration: none;
+    font: normal 15px Arial;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+.result {
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    left: 0;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    width: 1400px;
+    /*height: 100px;*/
+    background: green;
+    color: White;
+}

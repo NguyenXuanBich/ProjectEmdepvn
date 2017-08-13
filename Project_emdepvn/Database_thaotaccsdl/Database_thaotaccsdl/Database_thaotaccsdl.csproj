@@ -1,0 +1,1640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BDD94E5F-33D9-47A9-91C0-C85204E58ED9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Database_thaotaccsdl</RootNamespace>
+    <AssemblyName>Database_thaotaccsdl</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CKEditor.NET, Version=3.6.6.2, Culture=neutral, PublicKeyToken=e379cdf2f8354999, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="CKFinder, Version=2.5.0.2791, Culture=neutral, PublicKeyToken=579e7adc719a1423, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\CKFinder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebApplication2">
+      <HintPath>.\WebApplication2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AskLogin.aspx" />
+    <Content Include="ckeditor\adapters\jquery.js" />
+    <Content Include="ckeditor\CHANGES.html" />
+    <Content Include="ckeditor\ckeditor.js" />
+    <Content Include="ckeditor\ckeditor_basic.js" />
+    <Content Include="ckeditor\config.js" />
+    <Content Include="ckeditor\contents.css" />
+    <Content Include="ckeditor\images\spacer.gif" />
+    <Content Include="ckeditor\INSTALL.html" />
+    <Content Include="ckeditor\lang\af.js" />
+    <Content Include="ckeditor\lang\ar.js" />
+    <Content Include="ckeditor\lang\bg.js" />
+    <Content Include="ckeditor\lang\bn.js" />
+    <Content Include="ckeditor\lang\bs.js" />
+    <Content Include="ckeditor\lang\ca.js" />
+    <Content Include="ckeditor\lang\cs.js" />
+    <Content Include="ckeditor\lang\cy.js" />
+    <Content Include="ckeditor\lang\da.js" />
+    <Content Include="ckeditor\lang\de.js" />
+    <Content Include="ckeditor\lang\el.js" />
+    <Content Include="ckeditor\lang\en-au.js" />
+    <Content Include="ckeditor\lang\en-ca.js" />
+    <Content Include="ckeditor\lang\en-gb.js" />
+    <Content Include="ckeditor\lang\en.js" />
+    <Content Include="ckeditor\lang\eo.js" />
+    <Content Include="ckeditor\lang\es.js" />
+    <Content Include="ckeditor\lang\et.js" />
+    <Content Include="ckeditor\lang\eu.js" />
+    <Content Include="ckeditor\lang\fa.js" />
+    <Content Include="ckeditor\lang\fi.js" />
+    <Content Include="ckeditor\lang\fo.js" />
+    <Content Include="ckeditor\lang\fr-ca.js" />
+    <Content Include="ckeditor\lang\fr.js" />
+    <Content Include="ckeditor\lang\gl.js" />
+    <Content Include="ckeditor\lang\gu.js" />
+    <Content Include="ckeditor\lang\he.js" />
+    <Content Include="ckeditor\lang\hi.js" />
+    <Content Include="ckeditor\lang\hr.js" />
+    <Content Include="ckeditor\lang\hu.js" />
+    <Content Include="ckeditor\lang\id.js" />
+    <Content Include="ckeditor\lang\is.js" />
+    <Content Include="ckeditor\lang\it.js" />
+    <Content Include="ckeditor\lang\ja.js" />
+    <Content Include="ckeditor\lang\ka.js" />
+    <Content Include="ckeditor\lang\km.js" />
+    <Content Include="ckeditor\lang\ko.js" />
+    <Content Include="ckeditor\lang\ku.js" />
+    <Content Include="ckeditor\lang\lt.js" />
+    <Content Include="ckeditor\lang\lv.js" />
+    <Content Include="ckeditor\lang\mk.js" />
+    <Content Include="ckeditor\lang\mn.js" />
+    <Content Include="ckeditor\lang\ms.js" />
+    <Content Include="ckeditor\lang\nb.js" />
+    <Content Include="ckeditor\lang\nl.js" />
+    <Content Include="ckeditor\lang\no.js" />
+    <Content Include="ckeditor\lang\pl.js" />
+    <Content Include="ckeditor\lang\pt-br.js" />
+    <Content Include="ckeditor\lang\pt.js" />
+    <Content Include="ckeditor\lang\ro.js" />
+    <Content Include="ckeditor\lang\ru.js" />
+    <Content Include="ckeditor\lang\sk.js" />
+    <Content Include="ckeditor\lang\sl.js" />
+    <Content Include="ckeditor\lang\sr-latn.js" />
+    <Content Include="ckeditor\lang\sr.js" />
+    <Content Include="ckeditor\lang\sv.js" />
+    <Content Include="ckeditor\lang\th.js" />
+    <Content Include="ckeditor\lang\tr.js" />
+    <Content Include="ckeditor\lang\ug.js" />
+    <Content Include="ckeditor\lang\uk.js" />
+    <Content Include="ckeditor\lang\vi.js" />
+    <Content Include="ckeditor\lang\zh-cn.js" />
+    <Content Include="ckeditor\lang\zh.js" />
+    <Content Include="ckeditor\lang\_languages.js" />
+    <Content Include="ckeditor\lang\_translationstatus.txt" />
+    <Content Include="ckeditor\LICENSE.html" />
+    <Content Include="ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\cs.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\cy.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\da.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\de.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\el.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\en.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\eo.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\fa.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\fi.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\fr.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\gu.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\he.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\it.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\ku.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\lv.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\mk.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\nb.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\nl.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\no.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\pt-br.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\ro.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\sk.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\tr.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\ug.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\vi.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\zh-cn.js" />
+    <Content Include="ckeditor\plugins\a11yhelp\lang\_translationstatus.txt" />
+    <Content Include="ckeditor\plugins\about\dialogs\about.js" />
+    <Content Include="ckeditor\plugins\about\dialogs\logo_ckeditor.png" />
+    <Content Include="ckeditor\plugins\adobeair\plugin.js" />
+    <Content Include="ckeditor\plugins\ajax\plugin.js" />
+    <Content Include="ckeditor\plugins\autogrow\plugin.js" />
+    <Content Include="ckeditor\plugins\bbcode\plugin.js" />
+    <Content Include="ckeditor\plugins\clipboard\dialogs\paste.js" />
+    <Content Include="ckeditor\plugins\colordialog\dialogs\colordialog.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\bg.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\cs.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\cy.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\da.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\de.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\el.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\en.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\eo.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\et.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\fa.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\fi.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\fr.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\gu.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\he.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\hr.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\it.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\ku.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\lv.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\nb.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\nl.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\no.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\pl.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\pt-br.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\sk.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\tr.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\ug.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\uk.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\vi.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\zh-cn.js" />
+    <Content Include="ckeditor\plugins\devtools\lang\_translationstatus.txt" />
+    <Content Include="ckeditor\plugins\devtools\plugin.js" />
+    <Content Include="ckeditor\plugins\dialog\dialogDefinition.js" />
+    <Content Include="ckeditor\plugins\div\dialogs\div.js" />
+    <Content Include="ckeditor\plugins\docprops\dialogs\docprops.js" />
+    <Content Include="ckeditor\plugins\docprops\plugin.js" />
+    <Content Include="ckeditor\plugins\find\dialogs\find.js" />
+    <Content Include="ckeditor\plugins\flash\dialogs\flash.js" />
+    <Content Include="ckeditor\plugins\flash\images\placeholder.png" />
+    <Content Include="ckeditor\plugins\forms\dialogs\button.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\checkbox.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\form.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\hiddenfield.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\radio.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\select.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\textarea.js" />
+    <Content Include="ckeditor\plugins\forms\dialogs\textfield.js" />
+    <Content Include="ckeditor\plugins\forms\images\hiddenfield.gif" />
+    <Content Include="ckeditor\plugins\iframedialog\plugin.js" />
+    <Content Include="ckeditor\plugins\iframe\dialogs\iframe.js" />
+    <Content Include="ckeditor\plugins\iframe\images\placeholder.png" />
+    <Content Include="ckeditor\plugins\image\dialogs\image.js" />
+    <Content Include="ckeditor\plugins\link\dialogs\anchor.js" />
+    <Content Include="ckeditor\plugins\link\dialogs\link.js" />
+    <Content Include="ckeditor\plugins\link\images\anchor.gif" />
+    <Content Include="ckeditor\plugins\liststyle\dialogs\liststyle.js" />
+    <Content Include="ckeditor\plugins\pagebreak\images\pagebreak.gif" />
+    <Content Include="ckeditor\plugins\pastefromword\filter\default.js" />
+    <Content Include="ckeditor\plugins\pastetext\dialogs\pastetext.js" />
+    <Content Include="ckeditor\plugins\placeholder\dialogs\placeholder.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\bg.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\cs.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\cy.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\da.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\de.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\el.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\en.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\eo.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\et.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\fa.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\fi.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\fr.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\he.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\hr.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\it.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\ku.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\lv.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\nb.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\nl.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\no.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\pl.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\pt-br.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\sk.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\tr.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\ug.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\uk.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\vi.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\zh-cn.js" />
+    <Content Include="ckeditor\plugins\placeholder\lang\_translationstatus.txt" />
+    <Content Include="ckeditor\plugins\placeholder\placeholder.gif" />
+    <Content Include="ckeditor\plugins\placeholder\plugin.js" />
+    <Content Include="ckeditor\plugins\preview\preview.html" />
+    <Content Include="ckeditor\plugins\scayt\dialogs\options.js" />
+    <Content Include="ckeditor\plugins\scayt\dialogs\toolbar.css" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_address.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_blockquote.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_div.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h1.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h2.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h3.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h4.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h5.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_h6.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_p.png" />
+    <Content Include="ckeditor\plugins\showblocks\images\block_pre.png" />
+    <Content Include="ckeditor\plugins\smiley\dialogs\smiley.js" />
+    <Content Include="ckeditor\plugins\smiley\images\angel_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\angry_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\broken_heart.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\confused_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\cry_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\devil_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\embaressed_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\envelope.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\heart.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\kiss.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\lightbulb.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\omg_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\regular_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\sad_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\shades_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\teeth_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\thumbs_down.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\thumbs_up.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\tounge_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\whatchutalkingabout_smile.gif" />
+    <Content Include="ckeditor\plugins\smiley\images\wink_smile.gif" />
+    <Content Include="ckeditor\plugins\specialchar\dialogs\specialchar.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\cs.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\cy.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\de.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\el.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\en.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\eo.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\et.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\fa.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\fi.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\fr.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\he.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\hr.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\it.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\ku.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\lv.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\nb.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\nl.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\no.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\pt-br.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\sk.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\tr.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\ug.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\zh-cn.js" />
+    <Content Include="ckeditor\plugins\specialchar\lang\_translationstatus.txt" />
+    <Content Include="ckeditor\plugins\stylesheetparser\plugin.js" />
+    <Content Include="ckeditor\plugins\styles\styles\default.js" />
+    <Content Include="ckeditor\plugins\tableresize\plugin.js" />
+    <Content Include="ckeditor\plugins\tabletools\dialogs\tableCell.js" />
+    <Content Include="ckeditor\plugins\table\dialogs\table.js" />
+    <Content Include="ckeditor\plugins\templates\dialogs\templates.js" />
+    <Content Include="ckeditor\plugins\templates\templates\default.js" />
+    <Content Include="ckeditor\plugins\templates\templates\images\template1.gif" />
+    <Content Include="ckeditor\plugins\templates\templates\images\template2.gif" />
+    <Content Include="ckeditor\plugins\templates\templates\images\template3.gif" />
+    <Content Include="ckeditor\plugins\uicolor\dialogs\uicolor.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\bg.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\cs.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\cy.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\da.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\de.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\el.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\en.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\eo.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\et.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\fa.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\fi.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\fr.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\he.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\hr.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\it.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\ku.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\lv.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\mk.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\nb.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\nl.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\no.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\pl.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\pt-br.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\sk.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\tr.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\ug.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\uk.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\vi.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\zh-cn.js" />
+    <Content Include="ckeditor\plugins\uicolor\lang\_translationstatus.txt" />
+    <Content Include="ckeditor\plugins\uicolor\plugin.js" />
+    <Content Include="ckeditor\plugins\uicolor\uicolor.gif" />
+    <Content Include="ckeditor\plugins\uicolor\yui\assets\hue_bg.png" />
+    <Content Include="ckeditor\plugins\uicolor\yui\assets\hue_thumb.png" />
+    <Content Include="ckeditor\plugins\uicolor\yui\assets\picker_mask.png" />
+    <Content Include="ckeditor\plugins\uicolor\yui\assets\picker_thumb.png" />
+    <Content Include="ckeditor\plugins\uicolor\yui\assets\yui.css" />
+    <Content Include="ckeditor\plugins\uicolor\yui\yui.js" />
+    <Content Include="ckeditor\plugins\wsc\dialogs\ciframe.html" />
+    <Content Include="ckeditor\plugins\wsc\dialogs\tmpFrameset.html" />
+    <Content Include="ckeditor\plugins\wsc\dialogs\wsc.css" />
+    <Content Include="ckeditor\plugins\wsc\dialogs\wsc.js" />
+    <Content Include="ckeditor\plugins\xml\plugin.js" />
+    <Content Include="ckeditor\skins\kama\dialog.css" />
+    <Content Include="ckeditor\skins\kama\editor.css" />
+    <Content Include="ckeditor\skins\kama\icons.png" />
+    <Content Include="ckeditor\skins\kama\icons_rtl.png" />
+    <Content Include="ckeditor\skins\kama\images\dialog_sides.gif" />
+    <Content Include="ckeditor\skins\kama\images\dialog_sides.png" />
+    <Content Include="ckeditor\skins\kama\images\dialog_sides_rtl.png" />
+    <Content Include="ckeditor\skins\kama\images\mini.gif" />
+    <Content Include="ckeditor\skins\kama\images\noimage.png" />
+    <Content Include="ckeditor\skins\kama\images\sprites.png" />
+    <Content Include="ckeditor\skins\kama\images\sprites_ie6.png" />
+    <Content Include="ckeditor\skins\kama\images\toolbar_start.gif" />
+    <Content Include="ckeditor\skins\kama\skin.js" />
+    <Content Include="ckeditor\skins\kama\templates.css" />
+    <Content Include="ckeditor\skins\office2003\dialog.css" />
+    <Content Include="ckeditor\skins\office2003\editor.css" />
+    <Content Include="ckeditor\skins\office2003\icons.png" />
+    <Content Include="ckeditor\skins\office2003\icons_rtl.png" />
+    <Content Include="ckeditor\skins\office2003\images\dialog_sides.gif" />
+    <Content Include="ckeditor\skins\office2003\images\dialog_sides.png" />
+    <Content Include="ckeditor\skins\office2003\images\dialog_sides_rtl.png" />
+    <Content Include="ckeditor\skins\office2003\images\mini.gif" />
+    <Content Include="ckeditor\skins\office2003\images\noimage.png" />
+    <Content Include="ckeditor\skins\office2003\images\sprites.png" />
+    <Content Include="ckeditor\skins\office2003\images\sprites_ie6.png" />
+    <Content Include="ckeditor\skins\office2003\skin.js" />
+    <Content Include="ckeditor\skins\office2003\templates.css" />
+    <Content Include="ckeditor\skins\v2\dialog.css" />
+    <Content Include="ckeditor\skins\v2\editor.css" />
+    <Content Include="ckeditor\skins\v2\icons.png" />
+    <Content Include="ckeditor\skins\v2\icons_rtl.png" />
+    <Content Include="ckeditor\skins\v2\images\dialog_sides.gif" />
+    <Content Include="ckeditor\skins\v2\images\dialog_sides.png" />
+    <Content Include="ckeditor\skins\v2\images\dialog_sides_rtl.png" />
+    <Content Include="ckeditor\skins\v2\images\mini.gif" />
+    <Content Include="ckeditor\skins\v2\images\noimage.png" />
+    <Content Include="ckeditor\skins\v2\images\sprites.png" />
+    <Content Include="ckeditor\skins\v2\images\sprites_ie6.png" />
+    <Content Include="ckeditor\skins\v2\images\toolbar_start.gif" />
+    <Content Include="ckeditor\skins\v2\skin.js" />
+    <Content Include="ckeditor\skins\v2\templates.css" />
+    <Content Include="ckeditor\themes\default\theme.js" />
+    <Content Include="cms\admin\BanHang\BanHangLoadControl.ascx" />
+    <Content Include="cms\admin\BanHang\QuanLyChiTietDonDatHang\QuanLyChiTietDonDatHangLoadControl.ascx" />
+    <Content Include="cms\admin\BanHang\QuanLyChiTietDonDatHang\QuanLyChiTietDonDatHang_HienThi.ascx" />
+    <Content Include="cms\admin\BanHang\QuanLyChiTietDonDatHang\QuanLyChiTietDonDatHang_ThemMoi.ascx" />
+    <Content Include="cms\admin\BanHang\QuanLyChiTietDonHang\QuanLyChiTietDonHangLoadControl.ascx" />
+    <Content Include="cms\admin\BanHang\QuanLyChiTietDonHang\QuanLyChiTietDonHang_HienThi.ascx" />
+    <Content Include="cms\admin\BanHang\QuanLyChiTietDonHang\QuanLyChiTietDonHang_ThemMoi.ascx" />
+    <Content Include="cms\admin\BanHang\QuanLyDonDatHang\Ajax\DonDatHang.aspx" />
+    <Content Include="cms\admin\BanHang\QuanLyDonDatHang\QuanLyDonDatHangLoadControl.ascx" />
+    <Content Include="cms\admin\BanHang\QuanLyDonDatHang\QuanLyDonDatHang_HienThi.ascx" />
+    <Content Include="cms\admin\BanHang\QuanLyDonDatHang\QuanLyDonDatHang_HienThiChiTiet.ascx" />
+    <Content Include="cms\admin\BanHang\QuanLyDonDatHang\QuanLyDonDatHang_ThemMoi.ascx" />
+    <Content Include="cms\admin\BanHang\QuanLyHoaDon\Ajax\HoaDon.aspx" />
+    <Content Include="cms\admin\BanHang\QuanLyHoaDon\DoanhThu.ascx" />
+    <Content Include="cms\admin\BanHang\QuanLyHoaDon\QuanLyHoaDonLoadControl.ascx" />
+    <Content Include="cms\admin\BanHang\QuanLyHoaDon\QuanLyHoaDon_HienThi.ascx" />
+    <Content Include="cms\admin\BanHang\QuanLyHoaDon\QuanLyHoaDon_HienThiChiTiet.ascx" />
+    <Content Include="cms\admin\BanHang\QuanLyHoaDon\QuanLyHoaDon_ThemMoi.ascx" />
+    <Content Include="cms\admin\css\cssPaging\dataTables.material.min.css" />
+    <Content Include="cms\admin\css\cssPaging\material.min.css" />
+    <Content Include="cms\admin\css\Default.css" />
+    <Content Include="cms\admin\css\DefaultHome.css" />
+    <Content Include="cms\admin\css\font-face\font-face.css" />
+    <Content Include="cms\admin\css\Payment.css" />
+    <Content Include="cms\admin\js\jsPaging\dataTables.material.min.js" />
+    <Content Include="cms\admin\js\jsPaging\jquery-1.12.4.js" />
+    <Content Include="cms\admin\js\jsPaging\jquery.dataTables.min.js" />
+    <Content Include="cms\admin\KhachHang\Ajax\KhachHang.aspx" />
+    <Content Include="cms\admin\KhachHang\KhachHangLoadControl.ascx" />
+    <Content Include="cms\admin\KhachHang\KhachHang_ChinhSua.ascx" />
+    <Content Include="cms\admin\KhachHang\KhachHang_HienThi.ascx" />
+    <Content Include="cms\admin\KhachHang\KhachHang_ThemMoi.ascx" />
+    <Content Include="cms\admin\Menu\Ajax\Menu.aspx" />
+    <Content Include="cms\admin\Menu\MenuLoadControl.ascx" />
+    <Content Include="cms\admin\Menu\Menu_HienThi.ascx" />
+    <Content Include="cms\admin\Menu\Menu_ThemMoi.ascx" />
+    <Content Include="cms\admin\QuangCao\QuangCaoLoadControl.ascx" />
+    <Content Include="cms\admin\QuangCao\QuanLyNhomQuangCao\Ajax\NhomQuangCao.aspx" />
+    <Content Include="cms\admin\QuangCao\QuanLyNhomQuangCao\QuanLyNhomQuangCaoLoadControl.ascx" />
+    <Content Include="cms\admin\QuangCao\QuanLyNhomQuangCao\QuanLyNhomQuangCao_ChinhSua.ascx" />
+    <Content Include="cms\admin\QuangCao\QuanLyNhomQuangCao\QuanLyNhomQuangCao_HienThi.ascx" />
+    <Content Include="cms\admin\QuangCao\QuanLyNhomQuangCao\QuanLyNhomQuangCao_ThemMoi.ascx" />
+    <Content Include="cms\admin\QuangCao\QuanLyQuangCao\Ajax\QuangCao.aspx" />
+    <Content Include="cms\admin\QuangCao\QuanLyQuangCao\QuanLyQuangCaoLoadControl.ascx" />
+    <Content Include="cms\admin\QuangCao\QuanLyQuangCao\QuanLyQuangCao_ChinhSua.ascx" />
+    <Content Include="cms\admin\QuangCao\QuanLyQuangCao\QuanLyQuangCao_HienThi.ascx" />
+    <Content Include="cms\admin\QuangCao\QuanLyQuangCao\QuanLyQuangCao_ThemMoi.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLyChatLieu\Ajax\ChatLieu.aspx" />
+    <Content Include="cms\admin\SanPham\QuanLyMau\Ajax\Mau.aspx" />
+    <Content Include="cms\admin\SanPham\QuanLyNhomSanPham\Ajax\NhomSanPham.aspx" />
+    <Content Include="cms\admin\SanPham\QuanLyNhomSanPham\NhomSanPhamLoadControl.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLyNhomSanPham\NhomSanPham_ChinhSua.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLyNhomSanPham\NhomSanPham_HienThi.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLyNhomSanPham\NhomSanPham_ThemMoi.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLySize\Ajax\Size.aspx" />
+    <Content Include="cms\admin\SanPham\QuanLySize\SizeLoadControl.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLySize\Size_ChinhSua.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLySize\Size_HienThi.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLySize\Size_ThemMoi.ascx" />
+    <Content Include="cms\admin\TaiKhoan\QLTaiKhoan\Ajax\QLTaiKhoan.aspx" />
+    <Content Include="cms\admin\TaiKhoan\QLTaiKhoan\QLTaiKhoanLoadControl.ascx" />
+    <Content Include="cms\admin\TaiKhoan\QLTaiKhoan\QLTaiKhoan_HienThi.ascx" />
+    <Content Include="cms\admin\TaiKhoan\QLTaiKhoan\QLTaiKhoan_ThemMoi.ascx" />
+    <Content Include="cms\admin\TaiKhoan\QuyenDangNhap\Ajax\QuyenDangNhap.aspx" />
+    <Content Include="cms\admin\TaiKhoan\QuyenDangNhap\QuyenDangNhapLoadControl.ascx" />
+    <Content Include="cms\admin\TaiKhoan\QuyenDangNhap\QuyenDangNhap_HienThi.ascx" />
+    <Content Include="cms\admin\TaiKhoan\QuyenDangNhap\QuyenDangNhap_ThemMoi.ascx" />
+    <Content Include="cms\admin\TinTuc\QuanLyDanhMucTin\Ajax\DanhMucTin.aspx" />
+    <Content Include="cms\admin\TinTuc\QuanLyDanhMucTin\QuanLyDanhMucTinLoadControl.ascx" />
+    <Content Include="cms\admin\TinTuc\QuanLyDanhMucTin\QuanLyDanhMucTin_ChinhSua.ascx" />
+    <Content Include="cms\admin\TinTuc\QuanLyDanhMucTin\QuanLyDanhMucTin_HienThi.ascx" />
+    <Content Include="cms\admin\TinTuc\QuanLyDanhMucTin\QuanLyDanhMucTin_ThemMoi.ascx" />
+    <Content Include="cms\admin\TinTuc\QuanLyTinTuc\Ajax\TinTuc.aspx" />
+    <Content Include="cms\admin\TinTuc\QuanLyTinTuc\QuanLyTinTucLoadControl.ascx" />
+    <Content Include="cms\admin\TinTuc\QuanLyTinTuc\QuanLyTinTuc_ChinhSua.ascx" />
+    <Content Include="cms\admin\TinTuc\QuanLyTinTuc\QuanLyTinTuc_HienThi.ascx" />
+    <Content Include="cms\admin\TinTuc\QuanLyTinTuc\QuanLyTinTuc_ThemMoi.ascx" />
+    <Content Include="cms\admin\TinTuc\TinTucLoadControl.ascx" />
+    <Content Include="cms\JCaroselSlide\deep-minified.html" />
+    <Content Include="cms\JCaroselSlide\img\02.jpg" />
+    <Content Include="cms\JCaroselSlide\img\04.jpg" />
+    <Content Include="cms\JCaroselSlide\img\05.jpg" />
+    <Content Include="cms\JCaroselSlide\img\09.jpg" />
+    <Content Include="cms\JCaroselSlide\img\a12.png" />
+    <Content Include="cms\JCaroselSlide\img\b05.png" />
+    <Content Include="cms\JCaroselSlide\img\loading.gif" />
+    <Content Include="cms\JCaroselSlide\js\jquery-1.11.3.min.js" />
+    <Content Include="cms\JCaroselSlide\js\jssor.slider-22.1.9.debug.js" />
+    <Content Include="cms\JCaroselSlide\js\jssor.slider-22.1.9.min.js" />
+    <Content Include="cms\JCaroselSlide\js\jssor.slider-22.1.9.mini.js" />
+    <Content Include="cms\JCaroselSlide\standard.html" />
+    <Content Include="cms\JCaroselSlide\with-jquery.html" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\deep-minified.html" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\005.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\006.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\011.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\013.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\014.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\019.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\020.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\021.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\022.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\024.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\025.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\027.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\029.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\030.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\031.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\034.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\038.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\039.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\043.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\044.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\047.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\050.jpg" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\a03.png" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\b03.png" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\img\loading.gif" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\js\jquery-1.11.3.min.js" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\js\jssor.slider-22.0.15.debug.js" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\js\jssor.slider-22.0.15.min.js" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\js\jssor.slider-22.0.15.mini.js" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\no-jquery.html" />
+    <Content Include="cms\jCarousel\carousel-slider.slider\with-jquery.html" />
+    <Content Include="cms\jCarousel\deep-minified.html" />
+    <Content Include="cms\jCarousel\img\005.jpg" />
+    <Content Include="cms\jCarousel\img\006.jpg" />
+    <Content Include="cms\jCarousel\img\011.jpg" />
+    <Content Include="cms\jCarousel\img\013.jpg" />
+    <Content Include="cms\jCarousel\img\014.jpg" />
+    <Content Include="cms\jCarousel\img\019.jpg" />
+    <Content Include="cms\jCarousel\img\020.jpg" />
+    <Content Include="cms\jCarousel\img\021.jpg" />
+    <Content Include="cms\jCarousel\img\022.jpg" />
+    <Content Include="cms\jCarousel\img\024.jpg" />
+    <Content Include="cms\jCarousel\img\025.jpg" />
+    <Content Include="cms\jCarousel\img\027.jpg" />
+    <Content Include="cms\jCarousel\img\029.jpg" />
+    <Content Include="cms\jCarousel\img\030.jpg" />
+    <Content Include="cms\jCarousel\img\031.jpg" />
+    <Content Include="cms\jCarousel\img\034.jpg" />
+    <Content Include="cms\jCarousel\img\038.jpg" />
+    <Content Include="cms\jCarousel\img\039.jpg" />
+    <Content Include="cms\jCarousel\img\043.jpg" />
+    <Content Include="cms\jCarousel\img\044.jpg" />
+    <Content Include="cms\jCarousel\img\047.jpg" />
+    <Content Include="cms\jCarousel\img\050.jpg" />
+    <Content Include="cms\jCarousel\img\3.jpg" />
+    <Content Include="cms\jCarousel\img\a03.png" />
+    <Content Include="cms\jCarousel\img\b03.png" />
+    <Content Include="cms\jCarousel\img\Capture.JPG" />
+    <Content Include="cms\jCarousel\img\loading.gif" />
+    <Content Include="cms\jCarousel\img\next-jcarousel.png" />
+    <Content Include="cms\jCarousel\img\pre-jcarousel-hover.png" />
+    <Content Include="cms\jCarousel\img\pre-jcarousel.png" />
+    <Content Include="cms\jCarousel\img\sp1.png" />
+    <Content Include="cms\jCarousel\img\sp2.png" />
+    <Content Include="cms\jCarousel\img\sp3.png" />
+    <Content Include="cms\jCarousel\img\sp4.png" />
+    <Content Include="cms\jCarousel\img\sp5.png" />
+    <Content Include="cms\jCarousel\img\sp6.png" />
+    <Content Include="cms\jCarousel\img\sp7.png" />
+    <Content Include="cms\jCarousel\img\sp8.png" />
+    <Content Include="cms\jCarousel\js\jquery-1.11.3.min.js" />
+    <Content Include="cms\jCarousel\js\jssor.slider-22.0.15.debug.js" />
+    <Content Include="cms\jCarousel\js\jssor.slider-22.0.15.min.js" />
+    <Content Include="cms\jCarousel\js\jssor.slider-22.0.15.mini.js" />
+    <Content Include="cms\jCarousel\no-jquery.html" />
+    <Content Include="cms\jCarousel\style.css" />
+    <Content Include="cms\jCarousel\with-jquery.html" />
+    <Content Include="cms\jCarousel\carousel-slider.slider.zip" />
+    <Content Include="cms\admin\css\font-face\._HelveticaNeue-Light.otf" />
+    <Content Include="cms\admin\css\font-face\helvetica-neue-light.otf.zip" />
+    <Content Include="cms\admin\css\font-face\HelveticaNeue-Light.otf" />
+    <Content Include="ckeditor\.htaccess" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin.aspx" />
+    <Content Include="cms\admin\AdminLoadControl.ascx" />
+    <Content Include="cms\admin\css\cssAdmin.css" />
+    <Content Include="cms\admin\css\Login.css" />
+    <Content Include="cms\admin\js\jquery-1.11.3.min.js" />
+    <Content Include="cms\admin\SanPham\QuanLyChatLieu\ChatLieuLoadControl.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLyChatLieu\ChatLieu_ChinhSua.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLyChatLieu\ChatLieu_HienThi.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLyChatLieu\ChatLieu_ThemMoi.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLyDanhMuc\Ajax\DanhMuc.aspx" />
+    <Content Include="cms\admin\SanPham\QuanLyDanhMuc\DanhMucLoadControl.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLyDanhMuc\DanhMuc_ChinhSua.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLyDanhMuc\DanhMuc_HienThi.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLyDanhMuc\DanhMuc_ThemMoi.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLyMau\MauLoadControl.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLyMau\Mau_HienThi.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLyMau\Mau_ThemMoi.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLySanPham\Ajax\SanPham.aspx" />
+    <Content Include="cms\admin\SanPham\QuanLySanPham\QLSanPhamLoadControl.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLySanPham\SanPham_ChinhSua.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLySanPham\SanPham_HienThi.ascx" />
+    <Content Include="cms\admin\SanPham\QuanLySanPham\SanPham_ThemMoi.ascx" />
+    <Content Include="cms\admin\SanPham\SanPhamLoadControl.ascx" />
+    <Content Include="cms\admin\TaiKhoan\TaiKhoanLoadControl.ascx" />
+    <Content Include="cms\user\Default.aspx" />
+    <Content Include="DangKy.aspx" />
+    <Content Include="DoiMK.aspx" />
+    <Content Include="GiaodienUser\GiaoDienUserLoadControl.ascx" />
+    <Content Include="GiaodienUser\LichSuGiaoDich\LichSuLoadControl.ascx" />
+    <Content Include="GiaodienUser\LichSuGiaoDich\LichSu_HienThi.ascx" />
+    <Content Include="GiaodienUser\LichSuGiaoDich\LichSu_HienThiChiTiet.ascx" />
+    <Content Include="GiaodienUser\SanPham\Ajax\SanPhamGioHang.aspx" />
+    <Content Include="GiaodienUser\SanPham\SanPhamHienThiChiTiet.ascx" />
+    <Content Include="GiaodienUser\SanPham\SanPhamHienThiDanhSach.ascx" />
+    <Content Include="GiaodienUser\SanPham\SanPhamHienThiGioHang.ascx" />
+    <Content Include="GiaodienUser\SanPham\SanPhamHienThiTrangChu.ascx" />
+    <Content Include="GiaodienUser\SanPham\SanPhamLoadControl.ascx" />
+    <Content Include="GiaodienUser\TaiKhoan\DangKy.ascx" />
+    <Content Include="GiaodienUser\TaiKhoan\DangNhap.ascx" />
+    <Content Include="GiaodienUser\TaiKhoan\TaiKhoanLoadControl.ascx" />
+    <Content Include="GiaodienUser\TimKiem\KetQuaTimKiem.ascx" />
+    <Content Include="GiaodienUser\TimKiem\TimKiemLoadControl.ascx" />
+    <Content Include="GiaodienUser\TinTuc\ChiTietTinTuc.ascx" />
+    <Content Include="GiaodienUser\TinTuc\DanhSachTinTuc.ascx" />
+    <Content Include="GiaodienUser\TinTuc\TinTucLoadControl.ascx" />
+    <Content Include="GiaodienUser\TinTuc\TrangChuTinTuc.ascx" />
+    <Content Include="GiaodienUser\TrangChuHienThi\TrangChuLoadControl.ascx" />
+    <Content Include="GiaodienUser\UserPage.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="HistoryCustomer.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="LoginUser.aspx" />
+    <Content Include="Onepay\vpc_dr.aspx" />
+    <Content Include="Onepay\vpc_dr_quocte.aspx" />
+    <Content Include="pic\Banks\agibank.JPG" />
+    <Content Include="pic\Banks\vietcombank.JPG" />
+    <Content Include="pic\Banks\vietinbank.JPG" />
+    <Content Include="pic\Capture.JPG" />
+    <Content Include="pic\icon\add.png" />
+    <Content Include="pic\icon\b.png" />
+    <Content Include="pic\icon\back.png" />
+    <Content Include="pic\icon\border-menu.png" />
+    <Content Include="pic\icon\border-search.png" />
+    <Content Include="pic\icon\border.png" />
+    <Content Include="pic\icon\bordermenu.jpg" />
+    <Content Include="pic\icon\bullet-green.png" />
+    <Content Include="pic\icon\buy.png" />
+    <Content Include="pic\icon\buy2.png" />
+    <Content Include="pic\icon\buys.png" />
+    <Content Include="pic\icon\cancel.png" />
+    <Content Include="pic\icon\cart.png" />
+    <Content Include="pic\icon\cart32px.png" />
+    <Content Include="pic\icon\checked.png" />
+    <Content Include="pic\icon\datetinpick.png" />
+    <Content Include="pic\icon\delete.png" />
+    <Content Include="pic\icon\down1.png" />
+    <Content Include="pic\icon\down2.png" />
+    <Content Include="pic\icon\edit.png" />
+    <Content Include="pic\icon\english.png" />
+    <Content Include="pic\icon\entoni_search-24.png" />
+    <Content Include="pic\icon\Facebook.png" />
+    <Content Include="pic\icon\giohang.png" />
+    <Content Include="pic\icon\Gmail.png" />
+    <Content Include="pic\icon\googleplus.png" />
+    <Content Include="pic\icon\i-facebook.png" />
+    <Content Include="pic\icon\i-googleplus.png" />
+    <Content Include="pic\icon\i-twitter.png" />
+    <Content Include="pic\icon\i-youtube.png" />
+    <Content Include="pic\icon\icon-email.png" />
+    <Content Include="pic\icon\icon-factory.png" />
+    <Content Include="pic\icon\icon-phone.png" />
+    <Content Include="pic\icon\icon-tatthanh.png" />
+    <Content Include="pic\icon\icon-truso.png" />
+    <Content Include="pic\icon\icon-website.png" />
+    <Content Include="pic\icon\more.png" />
+    <Content Include="pic\icon\phone.jpg" />
+    <Content Include="pic\icon\register.png" />
+    <Content Include="pic\icon\search.png" />
+    <Content Include="pic\icon\shopping.png" />
+    <Content Include="pic\icon\smallflower.jpg" />
+    <Content Include="pic\icon\twiter.png" />
+    <Content Include="pic\icon\unchecked.png" />
+    <Content Include="pic\icon\up-top.png" />
+    <Content Include="pic\icon\vietnamese.png" />
+    <Content Include="pic\logo\backgrflowers.jpg" />
+    <Content Include="pic\logo\bg.jpg" />
+    <Content Include="pic\logo\bgr.gif" />
+    <Content Include="pic\logo\bgrstar.jpg" />
+    <Content Include="pic\logo\grsky.JPG" />
+    <Content Include="pic\logo\logoemdep.png" />
+    <Content Include="pic\logo\nenwweb.jpg" />
+    <Content Include="pic\logo\quangyt.gif" />
+    <Content Include="pic\logo\rainy.jpg" />
+    <Content Include="pic\logo\sao.png" />
+    <Content Include="pic\QuangCao\logoemdep.png" />
+    <Content Include="pic\QuangCao\slide1.jpg" />
+    <Content Include="pic\QuangCao\slide2.jpg" />
+    <Content Include="pic\QuangCao\slide3.jpg" />
+    <Content Include="pic\Slide\slide1.jpg" />
+    <Content Include="pic\Slide\slide2.jpg" />
+    <Content Include="pic\Slide\slide3.jpg" />
+    <Content Include="pic\Supporter\Capture.JPG" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AppCode\Chucnang\MaHoa.cs" />
+    <Compile Include="AppCode\Chucnang\SinhMa.cs" />
+    <Compile Include="AppCode\Database\ChatLieu.cs" />
+    <Compile Include="AppCode\Database\ChiTietDonDatHang.cs" />
+    <Compile Include="AppCode\Database\ChiTietHoaDon.cs" />
+    <Compile Include="AppCode\Database\DangKy.cs" />
+    <Compile Include="AppCode\Database\DanhMuc.cs" />
+    <Compile Include="AppCode\Database\DanhMucTin.cs" />
+    <Compile Include="AppCode\Database\DataHelper.cs" />
+    <Compile Include="AppCode\Database\DonDatHang.cs" />
+    <Compile Include="AppCode\Database\HoaDon.cs" />
+    <Compile Include="AppCode\Database\KhachHang.cs" />
+    <Compile Include="AppCode\Database\Mau.cs" />
+    <Compile Include="AppCode\Database\Menu.cs" />
+    <Compile Include="AppCode\Database\Nhom.cs" />
+    <Compile Include="AppCode\Database\NhomQuangCao.cs" />
+    <Compile Include="AppCode\Database\NhomSanPham.cs" />
+    <Compile Include="AppCode\Database\QuangCao.cs" />
+    <Compile Include="AppCode\Database\QuyenDangNhap.cs" />
+    <Compile Include="AppCode\Database\SanPham.cs" />
+    <Compile Include="AppCode\Database\Size.cs" />
+    <Compile Include="AppCode\Database\TaiKhoan.cs" />
+    <Compile Include="AppCode\Database\TimKiem.cs" />
+    <Compile Include="AppCode\Database\TinTuc.cs" />
+    <Compile Include="AppCode\Onepay\OnepayCode.cs" />
+    <Compile Include="AppCode\Onepay\OnepayQuocTeCode.cs" />
+    <Compile Include="AskLogin.aspx.cs">
+      <DependentUpon>AskLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AskLogin.aspx.designer.cs">
+      <DependentUpon>AskLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\AdminLoadControl.ascx.cs">
+      <DependentUpon>AdminLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\AdminLoadControl.ascx.designer.cs">
+      <DependentUpon>AdminLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\BanHangLoadControl.ascx.cs">
+      <DependentUpon>BanHangLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\BanHangLoadControl.ascx.designer.cs">
+      <DependentUpon>BanHangLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyChiTietDonDatHang\QuanLyChiTietDonDatHangLoadControl.ascx.cs">
+      <DependentUpon>QuanLyChiTietDonDatHangLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyChiTietDonDatHang\QuanLyChiTietDonDatHangLoadControl.ascx.designer.cs">
+      <DependentUpon>QuanLyChiTietDonDatHangLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyChiTietDonDatHang\QuanLyChiTietDonDatHang_HienThi.ascx.cs">
+      <DependentUpon>QuanLyChiTietDonDatHang_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyChiTietDonDatHang\QuanLyChiTietDonDatHang_HienThi.ascx.designer.cs">
+      <DependentUpon>QuanLyChiTietDonDatHang_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyChiTietDonDatHang\QuanLyChiTietDonDatHang_ThemMoi.ascx.cs">
+      <DependentUpon>QuanLyChiTietDonDatHang_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyChiTietDonDatHang\QuanLyChiTietDonDatHang_ThemMoi.ascx.designer.cs">
+      <DependentUpon>QuanLyChiTietDonDatHang_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyChiTietDonHang\QuanLyChiTietDonHangLoadControl.ascx.cs">
+      <DependentUpon>QuanLyChiTietDonHangLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyChiTietDonHang\QuanLyChiTietDonHangLoadControl.ascx.designer.cs">
+      <DependentUpon>QuanLyChiTietDonHangLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyChiTietDonHang\QuanLyChiTietDonHang_HienThi.ascx.cs">
+      <DependentUpon>QuanLyChiTietDonHang_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyChiTietDonHang\QuanLyChiTietDonHang_HienThi.ascx.designer.cs">
+      <DependentUpon>QuanLyChiTietDonHang_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyChiTietDonHang\QuanLyChiTietDonHang_ThemMoi.ascx.cs">
+      <DependentUpon>QuanLyChiTietDonHang_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyChiTietDonHang\QuanLyChiTietDonHang_ThemMoi.ascx.designer.cs">
+      <DependentUpon>QuanLyChiTietDonHang_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyDonDatHang\Ajax\DonDatHang.aspx.cs">
+      <DependentUpon>DonDatHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyDonDatHang\Ajax\DonDatHang.aspx.designer.cs">
+      <DependentUpon>DonDatHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyDonDatHang\QuanLyDonDatHangLoadControl.ascx.cs">
+      <DependentUpon>QuanLyDonDatHangLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyDonDatHang\QuanLyDonDatHangLoadControl.ascx.designer.cs">
+      <DependentUpon>QuanLyDonDatHangLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyDonDatHang\QuanLyDonDatHang_HienThi.ascx.cs">
+      <DependentUpon>QuanLyDonDatHang_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyDonDatHang\QuanLyDonDatHang_HienThi.ascx.designer.cs">
+      <DependentUpon>QuanLyDonDatHang_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyDonDatHang\QuanLyDonDatHang_HienThiChiTiet.ascx.cs">
+      <DependentUpon>QuanLyDonDatHang_HienThiChiTiet.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyDonDatHang\QuanLyDonDatHang_HienThiChiTiet.ascx.designer.cs">
+      <DependentUpon>QuanLyDonDatHang_HienThiChiTiet.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyDonDatHang\QuanLyDonDatHang_ThemMoi.ascx.cs">
+      <DependentUpon>QuanLyDonDatHang_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyDonDatHang\QuanLyDonDatHang_ThemMoi.ascx.designer.cs">
+      <DependentUpon>QuanLyDonDatHang_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyHoaDon\Ajax\HoaDon.aspx.cs">
+      <DependentUpon>HoaDon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyHoaDon\Ajax\HoaDon.aspx.designer.cs">
+      <DependentUpon>HoaDon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyHoaDon\DoanhThu.ascx.cs">
+      <DependentUpon>DoanhThu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyHoaDon\DoanhThu.ascx.designer.cs">
+      <DependentUpon>DoanhThu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyHoaDon\QuanLyHoaDonLoadControl.ascx.cs">
+      <DependentUpon>QuanLyHoaDonLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyHoaDon\QuanLyHoaDonLoadControl.ascx.designer.cs">
+      <DependentUpon>QuanLyHoaDonLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyHoaDon\QuanLyHoaDon_HienThi.ascx.cs">
+      <DependentUpon>QuanLyHoaDon_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyHoaDon\QuanLyHoaDon_HienThi.ascx.designer.cs">
+      <DependentUpon>QuanLyHoaDon_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyHoaDon\QuanLyHoaDon_HienThiChiTiet.ascx.cs">
+      <DependentUpon>QuanLyHoaDon_HienThiChiTiet.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyHoaDon\QuanLyHoaDon_HienThiChiTiet.ascx.designer.cs">
+      <DependentUpon>QuanLyHoaDon_HienThiChiTiet.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyHoaDon\QuanLyHoaDon_ThemMoi.ascx.cs">
+      <DependentUpon>QuanLyHoaDon_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\BanHang\QuanLyHoaDon\QuanLyHoaDon_ThemMoi.ascx.designer.cs">
+      <DependentUpon>QuanLyHoaDon_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\KhachHang\Ajax\KhachHang.aspx.cs">
+      <DependentUpon>KhachHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\KhachHang\Ajax\KhachHang.aspx.designer.cs">
+      <DependentUpon>KhachHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\KhachHang\KhachHangLoadControl.ascx.cs">
+      <DependentUpon>KhachHangLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\KhachHang\KhachHangLoadControl.ascx.designer.cs">
+      <DependentUpon>KhachHangLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\KhachHang\KhachHang_ChinhSua.ascx.cs">
+      <DependentUpon>KhachHang_ChinhSua.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\KhachHang\KhachHang_ChinhSua.ascx.designer.cs">
+      <DependentUpon>KhachHang_ChinhSua.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\KhachHang\KhachHang_HienThi.ascx.cs">
+      <DependentUpon>KhachHang_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\KhachHang\KhachHang_HienThi.ascx.designer.cs">
+      <DependentUpon>KhachHang_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\KhachHang\KhachHang_ThemMoi.ascx.cs">
+      <DependentUpon>KhachHang_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\KhachHang\KhachHang_ThemMoi.ascx.designer.cs">
+      <DependentUpon>KhachHang_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\Menu\Ajax\Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\Menu\Ajax\Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\Menu\MenuLoadControl.ascx.cs">
+      <DependentUpon>MenuLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\Menu\MenuLoadControl.ascx.designer.cs">
+      <DependentUpon>MenuLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\Menu\Menu_HienThi.ascx.cs">
+      <DependentUpon>Menu_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\Menu\Menu_HienThi.ascx.designer.cs">
+      <DependentUpon>Menu_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\Menu\Menu_ThemMoi.ascx.cs">
+      <DependentUpon>Menu_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\Menu\Menu_ThemMoi.ascx.designer.cs">
+      <DependentUpon>Menu_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuangCaoLoadControl.ascx.cs">
+      <DependentUpon>QuangCaoLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuangCaoLoadControl.ascx.designer.cs">
+      <DependentUpon>QuangCaoLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyNhomQuangCao\Ajax\NhomQuangCao.aspx.cs">
+      <DependentUpon>NhomQuangCao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyNhomQuangCao\Ajax\NhomQuangCao.aspx.designer.cs">
+      <DependentUpon>NhomQuangCao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyNhomQuangCao\QuanLyNhomQuangCaoLoadControl.ascx.cs">
+      <DependentUpon>QuanLyNhomQuangCaoLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyNhomQuangCao\QuanLyNhomQuangCaoLoadControl.ascx.designer.cs">
+      <DependentUpon>QuanLyNhomQuangCaoLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyNhomQuangCao\QuanLyNhomQuangCao_ChinhSua.ascx.cs">
+      <DependentUpon>QuanLyNhomQuangCao_ChinhSua.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyNhomQuangCao\QuanLyNhomQuangCao_ChinhSua.ascx.designer.cs">
+      <DependentUpon>QuanLyNhomQuangCao_ChinhSua.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyNhomQuangCao\QuanLyNhomQuangCao_HienThi.ascx.cs">
+      <DependentUpon>QuanLyNhomQuangCao_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyNhomQuangCao\QuanLyNhomQuangCao_HienThi.ascx.designer.cs">
+      <DependentUpon>QuanLyNhomQuangCao_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyNhomQuangCao\QuanLyNhomQuangCao_ThemMoi.ascx.cs">
+      <DependentUpon>QuanLyNhomQuangCao_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyNhomQuangCao\QuanLyNhomQuangCao_ThemMoi.ascx.designer.cs">
+      <DependentUpon>QuanLyNhomQuangCao_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyQuangCao\Ajax\QuangCao.aspx.cs">
+      <DependentUpon>QuangCao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyQuangCao\Ajax\QuangCao.aspx.designer.cs">
+      <DependentUpon>QuangCao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyQuangCao\QuanLyQuangCaoLoadControl.ascx.cs">
+      <DependentUpon>QuanLyQuangCaoLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyQuangCao\QuanLyQuangCaoLoadControl.ascx.designer.cs">
+      <DependentUpon>QuanLyQuangCaoLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyQuangCao\QuanLyQuangCao_ChinhSua.ascx.cs">
+      <DependentUpon>QuanLyQuangCao_ChinhSua.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyQuangCao\QuanLyQuangCao_ChinhSua.ascx.designer.cs">
+      <DependentUpon>QuanLyQuangCao_ChinhSua.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyQuangCao\QuanLyQuangCao_HienThi.ascx.cs">
+      <DependentUpon>QuanLyQuangCao_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyQuangCao\QuanLyQuangCao_HienThi.ascx.designer.cs">
+      <DependentUpon>QuanLyQuangCao_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyQuangCao\QuanLyQuangCao_ThemMoi.ascx.cs">
+      <DependentUpon>QuanLyQuangCao_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\QuangCao\QuanLyQuangCao\QuanLyQuangCao_ThemMoi.ascx.designer.cs">
+      <DependentUpon>QuanLyQuangCao_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyChatLieu\Ajax\ChatLieu.aspx.cs">
+      <DependentUpon>ChatLieu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyChatLieu\Ajax\ChatLieu.aspx.designer.cs">
+      <DependentUpon>ChatLieu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyChatLieu\ChatLieuLoadControl.ascx.cs">
+      <DependentUpon>ChatLieuLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyChatLieu\ChatLieuLoadControl.ascx.designer.cs">
+      <DependentUpon>ChatLieuLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyChatLieu\ChatLieu_ChinhSua.ascx.cs">
+      <DependentUpon>ChatLieu_ChinhSua.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyChatLieu\ChatLieu_ChinhSua.ascx.designer.cs">
+      <DependentUpon>ChatLieu_ChinhSua.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyChatLieu\ChatLieu_HienThi.ascx.cs">
+      <DependentUpon>ChatLieu_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyChatLieu\ChatLieu_HienThi.ascx.designer.cs">
+      <DependentUpon>ChatLieu_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyChatLieu\ChatLieu_ThemMoi.ascx.cs">
+      <DependentUpon>ChatLieu_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyChatLieu\ChatLieu_ThemMoi.ascx.designer.cs">
+      <DependentUpon>ChatLieu_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyDanhMuc\Ajax\DanhMuc.aspx.cs">
+      <DependentUpon>DanhMuc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyDanhMuc\Ajax\DanhMuc.aspx.designer.cs">
+      <DependentUpon>DanhMuc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyDanhMuc\DanhMucLoadControl.ascx.cs">
+      <DependentUpon>DanhMucLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyDanhMuc\DanhMucLoadControl.ascx.designer.cs">
+      <DependentUpon>DanhMucLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyDanhMuc\DanhMuc_ChinhSua.ascx.cs">
+      <DependentUpon>DanhMuc_ChinhSua.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyDanhMuc\DanhMuc_ChinhSua.ascx.designer.cs">
+      <DependentUpon>DanhMuc_ChinhSua.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyDanhMuc\DanhMuc_HienThi.ascx.cs">
+      <DependentUpon>DanhMuc_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyDanhMuc\DanhMuc_HienThi.ascx.designer.cs">
+      <DependentUpon>DanhMuc_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyDanhMuc\DanhMuc_ThemMoi.ascx.cs">
+      <DependentUpon>DanhMuc_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyDanhMuc\DanhMuc_ThemMoi.ascx.designer.cs">
+      <DependentUpon>DanhMuc_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyMau\Ajax\Mau.aspx.cs">
+      <DependentUpon>Mau.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyMau\Ajax\Mau.aspx.designer.cs">
+      <DependentUpon>Mau.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyMau\MauLoadControl.ascx.cs">
+      <DependentUpon>MauLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyMau\MauLoadControl.ascx.designer.cs">
+      <DependentUpon>MauLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyMau\Mau_HienThi.ascx.cs">
+      <DependentUpon>Mau_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyMau\Mau_HienThi.ascx.designer.cs">
+      <DependentUpon>Mau_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyMau\Mau_ThemMoi.ascx.cs">
+      <DependentUpon>Mau_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyMau\Mau_ThemMoi.ascx.designer.cs">
+      <DependentUpon>Mau_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyNhomSanPham\Ajax\NhomSanPham.aspx.cs">
+      <DependentUpon>NhomSanPham.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyNhomSanPham\Ajax\NhomSanPham.aspx.designer.cs">
+      <DependentUpon>NhomSanPham.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyNhomSanPham\NhomSanPhamLoadControl.ascx.cs">
+      <DependentUpon>NhomSanPhamLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyNhomSanPham\NhomSanPhamLoadControl.ascx.designer.cs">
+      <DependentUpon>NhomSanPhamLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyNhomSanPham\NhomSanPham_ChinhSua.ascx.cs">
+      <DependentUpon>NhomSanPham_ChinhSua.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyNhomSanPham\NhomSanPham_ChinhSua.ascx.designer.cs">
+      <DependentUpon>NhomSanPham_ChinhSua.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyNhomSanPham\NhomSanPham_HienThi.ascx.cs">
+      <DependentUpon>NhomSanPham_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyNhomSanPham\NhomSanPham_HienThi.ascx.designer.cs">
+      <DependentUpon>NhomSanPham_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyNhomSanPham\NhomSanPham_ThemMoi.ascx.cs">
+      <DependentUpon>NhomSanPham_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLyNhomSanPham\NhomSanPham_ThemMoi.ascx.designer.cs">
+      <DependentUpon>NhomSanPham_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySanPham\Ajax\SanPham.aspx.cs">
+      <DependentUpon>SanPham.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySanPham\Ajax\SanPham.aspx.designer.cs">
+      <DependentUpon>SanPham.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySanPham\QLSanPhamLoadControl.ascx.cs">
+      <DependentUpon>QLSanPhamLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySanPham\QLSanPhamLoadControl.ascx.designer.cs">
+      <DependentUpon>QLSanPhamLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySanPham\SanPham_ChinhSua.ascx.cs">
+      <DependentUpon>SanPham_ChinhSua.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySanPham\SanPham_ChinhSua.ascx.designer.cs">
+      <DependentUpon>SanPham_ChinhSua.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySanPham\SanPham_HienThi.ascx.cs">
+      <DependentUpon>SanPham_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySanPham\SanPham_HienThi.ascx.designer.cs">
+      <DependentUpon>SanPham_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySanPham\SanPham_ThemMoi.ascx.cs">
+      <DependentUpon>SanPham_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySanPham\SanPham_ThemMoi.ascx.designer.cs">
+      <DependentUpon>SanPham_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySize\Ajax\Size.aspx.cs">
+      <DependentUpon>Size.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySize\Ajax\Size.aspx.designer.cs">
+      <DependentUpon>Size.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySize\SizeLoadControl.ascx.cs">
+      <DependentUpon>SizeLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySize\SizeLoadControl.ascx.designer.cs">
+      <DependentUpon>SizeLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySize\Size_ChinhSua.ascx.cs">
+      <DependentUpon>Size_ChinhSua.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySize\Size_ChinhSua.ascx.designer.cs">
+      <DependentUpon>Size_ChinhSua.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySize\Size_HienThi.ascx.cs">
+      <DependentUpon>Size_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySize\Size_HienThi.ascx.designer.cs">
+      <DependentUpon>Size_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySize\Size_ThemMoi.ascx.cs">
+      <DependentUpon>Size_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\QuanLySize\Size_ThemMoi.ascx.designer.cs">
+      <DependentUpon>Size_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\SanPhamLoadControl.ascx.cs">
+      <DependentUpon>SanPhamLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\SanPham\SanPhamLoadControl.ascx.designer.cs">
+      <DependentUpon>SanPhamLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QLTaiKhoan\Ajax\QLTaiKhoan.aspx.cs">
+      <DependentUpon>QLTaiKhoan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QLTaiKhoan\Ajax\QLTaiKhoan.aspx.designer.cs">
+      <DependentUpon>QLTaiKhoan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QLTaiKhoan\QLTaiKhoanLoadControl.ascx.cs">
+      <DependentUpon>QLTaiKhoanLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QLTaiKhoan\QLTaiKhoanLoadControl.ascx.designer.cs">
+      <DependentUpon>QLTaiKhoanLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QLTaiKhoan\QLTaiKhoan_HienThi.ascx.cs">
+      <DependentUpon>QLTaiKhoan_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QLTaiKhoan\QLTaiKhoan_HienThi.ascx.designer.cs">
+      <DependentUpon>QLTaiKhoan_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QLTaiKhoan\QLTaiKhoan_ThemMoi.ascx.cs">
+      <DependentUpon>QLTaiKhoan_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QLTaiKhoan\QLTaiKhoan_ThemMoi.ascx.designer.cs">
+      <DependentUpon>QLTaiKhoan_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QuyenDangNhap\Ajax\QuyenDangNhap.aspx.cs">
+      <DependentUpon>QuyenDangNhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QuyenDangNhap\Ajax\QuyenDangNhap.aspx.designer.cs">
+      <DependentUpon>QuyenDangNhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QuyenDangNhap\QuyenDangNhapLoadControl.ascx.cs">
+      <DependentUpon>QuyenDangNhapLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QuyenDangNhap\QuyenDangNhapLoadControl.ascx.designer.cs">
+      <DependentUpon>QuyenDangNhapLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QuyenDangNhap\QuyenDangNhap_HienThi.ascx.cs">
+      <DependentUpon>QuyenDangNhap_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QuyenDangNhap\QuyenDangNhap_HienThi.ascx.designer.cs">
+      <DependentUpon>QuyenDangNhap_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QuyenDangNhap\QuyenDangNhap_ThemMoi.ascx.cs">
+      <DependentUpon>QuyenDangNhap_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\QuyenDangNhap\QuyenDangNhap_ThemMoi.ascx.designer.cs">
+      <DependentUpon>QuyenDangNhap_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\TaiKhoanLoadControl.ascx.cs">
+      <DependentUpon>TaiKhoanLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TaiKhoan\TaiKhoanLoadControl.ascx.designer.cs">
+      <DependentUpon>TaiKhoanLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyDanhMucTin\Ajax\DanhMucTin.aspx.cs">
+      <DependentUpon>DanhMucTin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyDanhMucTin\Ajax\DanhMucTin.aspx.designer.cs">
+      <DependentUpon>DanhMucTin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyDanhMucTin\QuanLyDanhMucTinLoadControl.ascx.cs">
+      <DependentUpon>QuanLyDanhMucTinLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyDanhMucTin\QuanLyDanhMucTinLoadControl.ascx.designer.cs">
+      <DependentUpon>QuanLyDanhMucTinLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyDanhMucTin\QuanLyDanhMucTin_ChinhSua.ascx.cs">
+      <DependentUpon>QuanLyDanhMucTin_ChinhSua.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyDanhMucTin\QuanLyDanhMucTin_ChinhSua.ascx.designer.cs">
+      <DependentUpon>QuanLyDanhMucTin_ChinhSua.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyDanhMucTin\QuanLyDanhMucTin_HienThi.ascx.cs">
+      <DependentUpon>QuanLyDanhMucTin_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyDanhMucTin\QuanLyDanhMucTin_HienThi.ascx.designer.cs">
+      <DependentUpon>QuanLyDanhMucTin_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyDanhMucTin\QuanLyDanhMucTin_ThemMoi.ascx.cs">
+      <DependentUpon>QuanLyDanhMucTin_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyDanhMucTin\QuanLyDanhMucTin_ThemMoi.ascx.designer.cs">
+      <DependentUpon>QuanLyDanhMucTin_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyTinTuc\Ajax\TinTuc.aspx.cs">
+      <DependentUpon>TinTuc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyTinTuc\Ajax\TinTuc.aspx.designer.cs">
+      <DependentUpon>TinTuc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyTinTuc\QuanLyTinTucLoadControl.ascx.cs">
+      <DependentUpon>QuanLyTinTucLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyTinTuc\QuanLyTinTucLoadControl.ascx.designer.cs">
+      <DependentUpon>QuanLyTinTucLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyTinTuc\QuanLyTinTuc_ChinhSua.ascx.cs">
+      <DependentUpon>QuanLyTinTuc_ChinhSua.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyTinTuc\QuanLyTinTuc_ChinhSua.ascx.designer.cs">
+      <DependentUpon>QuanLyTinTuc_ChinhSua.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyTinTuc\QuanLyTinTuc_HienThi.ascx.cs">
+      <DependentUpon>QuanLyTinTuc_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyTinTuc\QuanLyTinTuc_HienThi.ascx.designer.cs">
+      <DependentUpon>QuanLyTinTuc_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyTinTuc\QuanLyTinTuc_ThemMoi.ascx.cs">
+      <DependentUpon>QuanLyTinTuc_ThemMoi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\QuanLyTinTuc\QuanLyTinTuc_ThemMoi.ascx.designer.cs">
+      <DependentUpon>QuanLyTinTuc_ThemMoi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\TinTucLoadControl.ascx.cs">
+      <DependentUpon>TinTucLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\admin\TinTuc\TinTucLoadControl.ascx.designer.cs">
+      <DependentUpon>TinTucLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\user\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\user\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DangKy.aspx.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangKy.aspx.designer.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoiMK.aspx.cs">
+      <DependentUpon>DoiMK.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoiMK.aspx.designer.cs">
+      <DependentUpon>DoiMK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\GiaoDienUserLoadControl.ascx.cs">
+      <DependentUpon>GiaoDienUserLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\GiaoDienUserLoadControl.ascx.designer.cs">
+      <DependentUpon>GiaoDienUserLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\LichSuGiaoDich\LichSuLoadControl.ascx.cs">
+      <DependentUpon>LichSuLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\LichSuGiaoDich\LichSuLoadControl.ascx.designer.cs">
+      <DependentUpon>LichSuLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\LichSuGiaoDich\LichSu_HienThi.ascx.cs">
+      <DependentUpon>LichSu_HienThi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\LichSuGiaoDich\LichSu_HienThi.ascx.designer.cs">
+      <DependentUpon>LichSu_HienThi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\LichSuGiaoDich\LichSu_HienThiChiTiet.ascx.cs">
+      <DependentUpon>LichSu_HienThiChiTiet.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\LichSuGiaoDich\LichSu_HienThiChiTiet.ascx.designer.cs">
+      <DependentUpon>LichSu_HienThiChiTiet.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\SanPham\Ajax\SanPhamGioHang.aspx.cs">
+      <DependentUpon>SanPhamGioHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\SanPham\Ajax\SanPhamGioHang.aspx.designer.cs">
+      <DependentUpon>SanPhamGioHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\SanPham\SanPhamHienThiChiTiet.ascx.cs">
+      <DependentUpon>SanPhamHienThiChiTiet.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\SanPham\SanPhamHienThiChiTiet.ascx.designer.cs">
+      <DependentUpon>SanPhamHienThiChiTiet.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\SanPham\SanPhamHienThiDanhSach.ascx.cs">
+      <DependentUpon>SanPhamHienThiDanhSach.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\SanPham\SanPhamHienThiDanhSach.ascx.designer.cs">
+      <DependentUpon>SanPhamHienThiDanhSach.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\SanPham\SanPhamHienThiGioHang.ascx.cs">
+      <DependentUpon>SanPhamHienThiGioHang.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\SanPham\SanPhamHienThiGioHang.ascx.designer.cs">
+      <DependentUpon>SanPhamHienThiGioHang.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\SanPham\SanPhamHienThiTrangChu.ascx.cs">
+      <DependentUpon>SanPhamHienThiTrangChu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\SanPham\SanPhamHienThiTrangChu.ascx.designer.cs">
+      <DependentUpon>SanPhamHienThiTrangChu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\SanPham\SanPhamLoadControl.ascx.cs">
+      <DependentUpon>SanPhamLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\SanPham\SanPhamLoadControl.ascx.designer.cs">
+      <DependentUpon>SanPhamLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\TaiKhoan\DangKy.ascx.cs">
+      <DependentUpon>DangKy.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\TaiKhoan\DangKy.ascx.designer.cs">
+      <DependentUpon>DangKy.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\TaiKhoan\DangNhap.ascx.cs">
+      <DependentUpon>DangNhap.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\TaiKhoan\DangNhap.ascx.designer.cs">
+      <DependentUpon>DangNhap.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\TaiKhoan\TaiKhoanLoadControl.ascx.cs">
+      <DependentUpon>TaiKhoanLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\TaiKhoan\TaiKhoanLoadControl.ascx.designer.cs">
+      <DependentUpon>TaiKhoanLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\TimKiem\KetQuaTimKiem.ascx.cs">
+      <DependentUpon>KetQuaTimKiem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\TimKiem\KetQuaTimKiem.ascx.designer.cs">
+      <DependentUpon>KetQuaTimKiem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\TimKiem\TimKiemLoadControl.ascx.cs">
+      <DependentUpon>TimKiemLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\TimKiem\TimKiemLoadControl.ascx.designer.cs">
+      <DependentUpon>TimKiemLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\TinTuc\ChiTietTinTuc.ascx.cs">
+      <DependentUpon>ChiTietTinTuc.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\TinTuc\ChiTietTinTuc.ascx.designer.cs">
+      <DependentUpon>ChiTietTinTuc.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\TinTuc\DanhSachTinTuc.ascx.cs">
+      <DependentUpon>DanhSachTinTuc.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\TinTuc\DanhSachTinTuc.ascx.designer.cs">
+      <DependentUpon>DanhSachTinTuc.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\TinTuc\TinTucLoadControl.ascx.cs">
+      <DependentUpon>TinTucLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\TinTuc\TinTucLoadControl.ascx.designer.cs">
+      <DependentUpon>TinTucLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\TinTuc\TrangChuTinTuc.ascx.cs">
+      <DependentUpon>TrangChuTinTuc.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\TinTuc\TrangChuTinTuc.ascx.designer.cs">
+      <DependentUpon>TrangChuTinTuc.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\TrangChuHienThi\TrangChuLoadControl.ascx.cs">
+      <DependentUpon>TrangChuLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\TrangChuHienThi\TrangChuLoadControl.ascx.designer.cs">
+      <DependentUpon>TrangChuLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="GiaodienUser\UserPage.aspx.cs">
+      <DependentUpon>UserPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GiaodienUser\UserPage.aspx.designer.cs">
+      <DependentUpon>UserPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HistoryCustomer.aspx.cs">
+      <DependentUpon>HistoryCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HistoryCustomer.aspx.designer.cs">
+      <DependentUpon>HistoryCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginUser.aspx.cs">
+      <DependentUpon>LoginUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginUser.aspx.designer.cs">
+      <DependentUpon>LoginUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Onepay\vpc_dr.aspx.cs">
+      <DependentUpon>vpc_dr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Onepay\vpc_dr_quocte.aspx.cs">
+      <DependentUpon>vpc_dr_quocte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="cms\admin\BanHang\QuanLyChiTietDonDatHang\Ajax\" />
+    <Folder Include="cms\admin\BanHang\QuanLyChiTietDonHang\Ajax\" />
+    <Folder Include="pic\SanPham\" />
+    <Folder Include="pic\TinTuc\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>13237</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:13237/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
